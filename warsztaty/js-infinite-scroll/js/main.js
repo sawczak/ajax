@@ -35,7 +35,7 @@ const getData = () => {
 // getData();
 
 window.onscroll = function() {
-    if (window.innerHeight + window.scrollY >=(document.body.offsetHeight)) {  //innerHeigh - wysokośc przeglądarki użytkownika, połozenie scrolla w osi pionowej 
+    if (window.innerHeight + window.scrollY >= (document.body.offsetHeight)) {  //innerHeigh - wysokośc przeglądarki użytkownika, połozenie scrolla w osi pionowej 
     getData();
     }
     
