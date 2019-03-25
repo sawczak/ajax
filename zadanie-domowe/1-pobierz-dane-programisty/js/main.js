@@ -1,3 +1,5 @@
+$(".btn").after("<div id='dane-programisty'></div"); //stworzenie nowego elementu i osadzenie go w html w consoli
+
 $('.btn').click(function () {
     
     $.getJSON('https://akademia108.pl/kurs-front-end/ajax/1-pobierz-dane-programisty.php',
